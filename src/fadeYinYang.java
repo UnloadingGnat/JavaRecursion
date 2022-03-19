@@ -125,7 +125,7 @@ public class fadeYinYang extends JComponent
             // draw yang
             this.drawFish(x1, y1+140, -170, 11, length, Color.BLACK, "eye");
 
-            /* It's an 👁️ for an 👁️. Emoji documentation should be the new best practice - this is a joke, plz don't dock marks */
+            /* It's an 👁️ for an 👁️. Emoji documentation should be the new best practice */
 
             // recursively draw top eye for fish
             drawEyes(x1-10, y1-15, length*0.45, depth-1);
